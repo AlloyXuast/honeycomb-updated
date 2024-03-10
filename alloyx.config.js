@@ -70,7 +70,7 @@ const clients = ENV.clients
 
 //!!!!!!! -- THESE ARE COMMUNITY CONSTANTS -- !!!!!!!!!//
 //TOKEN CONFIGS -- ALL COMMUNITY RUNNERS NEED THESE SAME VALUES
-const starting_block = 49988008; //from what block does your token start
+const starting_block = 63654900; //from what block does your token start
 const prefix = 'alloyx_' //Community token name for Custom Json IDs
 const TOKEN = 'ALLOYX' //Token name
 const precision = 3 //precision of token
@@ -85,7 +85,7 @@ const msPubMemo = 'STM7epvvN2GvZBuJj5ruB5fc3EsKZMC8Eh2VEnG93vb6BN2bUPPfj' //memo
 const msPriMemo = '5J1YASzZFqHQwgnnMFoBLbfQttL2uSsqde6cxNsA5oA63GWTde7'
 const msmeta = ''
 const mainAPI = 'token.alloyxuast.co.uk' //leaders API probably
-const mainRender = 'data.dlux.io' //data and render server
+const mainRender = 'data.alloyxuast.co.uk' //data and render server
 const mainFE = 'alloyxuast.co.uk' //frontend for content
 const mainIPFS = 'a.ipfs.dlux.io' //IPFS service
 const mainICO = 'alloyxuastcur' //Account collecting ICO HIVE
