@@ -96,7 +96,7 @@ const features = {
     delegate: true, //delegation
     daily: true, // daily post
     liquidity: true, //liquidity
-    ico: true, //ico
+    ico: false, //ico
     inflation: true,
     dex: true, //dex
     nft: true, //nfts
