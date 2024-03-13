@@ -3,7 +3,7 @@ module.exports = {
     "balances": {
         [config.leader]: 0,
         "spk-cc": 0, //additional distributions
-        "alloyx-cc": 1000000, //additional distributions
+        "alloyx-cc": 0, //additional distributions
         "chisdealhd": 10000, //additional distributions
         "shmoogleosukami": 10000, //additional distributions
         "ra": 0,
