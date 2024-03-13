@@ -3,6 +3,9 @@ module.exports = {
     "balances": {
         [config.leader]: 0,
         "spk-cc": 0, //additional distributions
+        "alloyx-cc": 0, //additional distributions
+        "chisdealhd": 10000, //additional distributions
+        "shmoogleosukami": 10000, //additional distributions
         "ra": 0,
         "rb": 0,
         "rc": 0,
@@ -68,13 +71,36 @@ module.exports = {
         "lastBlock": "",
         "marketingRate": 2500,
         "maxBudget": 1000000000,
+        "ms": {
+         "active_account_auths": {
+            "alloyxuast": 1,
+            "chisdealhd": 1,
+            "shmoogleosukami": 1,
+         },
+         "active_threshold": 2,
+         "memo_key": "STM5GCy5Vof8TDPMfGr2sd16BuXDkU62zAvjRk5zomgLpXY9sCXmY",
+         "owner_key_auths": {
+            "STM4xzEwbNBTXSkSTfiFK9VqMPHxsNr9SxFPrFfmrbok3AkbsG2dd": 1,
+"STM5hbWR25EGaM3btUL7F1dR529EXHmCsxixuyq5m9WBDwCvV3mQL": 1
+"STM5uRaiHKriDZfo7Wc9EiFQWAw2WgtNAt5nUAYiBWiR45WTh4ZUZ": 1
+"STM68B9PUuexyoFE8Qipr6YmYejQXRVeTkf9xtRcLvmbeGwHSoorj": 1
+         },
+         "owner_threshold": 2,
+         "posting_account_auths": {
+            "alloyxuast": 1,
+            "chisdealhd": 1,
+            "shmoogleosukami": 1,
+         },
+         "posting_threshold": 1
+        },
         "MSHeld":{
-            "HIVE": 0,
+            "HIVE": 1000,
             "HBD": 0
         }, 
         "nodeRate": 2000,
         "outOnBlock": 0, //amm ICO pricing
         "savingsRate": 1000,
-        "tokenSupply": 1 //your starting token supply
+        "interestRate": 303311,
+        "tokenSupply": 100000000000 //your starting token supply
     }
 }
