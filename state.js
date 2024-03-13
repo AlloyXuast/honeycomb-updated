@@ -4,6 +4,7 @@ module.exports = {
         [config.leader]: 0,
         "spk-cc": 0, //additional distributions
         "alloyx-cc": 0, //additional distributions
+        "alloyxuast": 1000000, //additional distributions
         "chisdealhd": 10000, //additional distributions
         "shmoogleosukami": 10000, //additional distributions
         "ra": 0,
