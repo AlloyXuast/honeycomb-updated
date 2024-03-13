@@ -81,9 +81,9 @@ module.exports = {
          "memo_key": "STM5GCy5Vof8TDPMfGr2sd16BuXDkU62zAvjRk5zomgLpXY9sCXmY",
          "owner_key_auths": {
             "STM4xzEwbNBTXSkSTfiFK9VqMPHxsNr9SxFPrFfmrbok3AkbsG2dd": 1,
-            "STM5hbWR25EGaM3btUL7F1dR529EXHmCsxixuyq5m9WBDwCvV3mQL": 1
-            "STM5uRaiHKriDZfo7Wc9EiFQWAw2WgtNAt5nUAYiBWiR45WTh4ZUZ": 1
-            "STM68B9PUuexyoFE8Qipr6YmYejQXRVeTkf9xtRcLvmbeGwHSoorj": 1
+            "STM5hbWR25EGaM3btUL7F1dR529EXHmCsxixuyq5m9WBDwCvV3mQL": 1,
+            "STM5uRaiHKriDZfo7Wc9EiFQWAw2WgtNAt5nUAYiBWiR45WTh4ZUZ": 1,
+            "STM68B9PUuexyoFE8Qipr6YmYejQXRVeTkf9xtRcLvmbeGwHSoorj": 1,
          },
          "owner_threshold": 2,
          "posting_account_auths": {
