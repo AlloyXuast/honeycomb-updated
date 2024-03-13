@@ -68,7 +68,7 @@ module.exports = {
         "delegationRate": 2000,
         "hashLastIBlock": "Genesis",
         "icoPrice": 0, //in millihive
-        "interestRate": 999999999999, //mints 1 millitoken per this many millitokens in your DAO period
+        "interestRate": 303311, //mints 1 millitoken per this many millitokens in your DAO period
         "lastBlock": "",
         "marketingRate": 2500,
         "maxBudget": 1000000000,
@@ -101,7 +101,6 @@ module.exports = {
         "nodeRate": 2000,
         "outOnBlock": 0, //amm ICO pricing
         "savingsRate": 1000,
-        "interestRate": 303311,
         "tokenSupply": 100000000000 //your starting token supply
     }
 }
