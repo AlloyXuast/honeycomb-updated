@@ -118,7 +118,7 @@ exports.tally = (num, plasma, isStreaming) => {
                     }
                     var owners = 0;
                     for (var owner in stats.ms.active_account_auths) {
-                        if (nodes[owner].report.hash == consensus) {
+                        if (nodes?.[owner]?.report?.hash == consensus) {
                             owners++;
                         }
                     }
