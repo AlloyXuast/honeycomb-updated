@@ -4,12 +4,12 @@ services:
     image: ipfs/kubo:latest
     restart: unless-stopped
     ports:
-      - 4001:4001
-      - 8080:8080
+      - "4001:4001"
+      - "8080:8080"
       - "127.0.0.1:5001:5001"
     volumes:
       - ipfs:/data/ipfs
-    network:
+    networks:
       - honeycomb
   honeycomb:
     build: .
@@ -26,6 +26,8 @@ services:
         max-file: "3"
     stdin_open: true
     tty: true
+    networks:
+      - honeycomb
 volumes:
   ipfs:
 
