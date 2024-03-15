@@ -5,8 +5,8 @@ module.exports = {
         "spk-cc": 0, //additional distributions
         "alloyx-cc": 0, //additional distributions
         "alloyxuast": 1000000, //additional distributions
-        "chisdealhd": 10000000000, //additional distributions
-        "shmoogleosukami": 10000000000, //additional distributions
+        "chisdealhd": 1000000000000, //additional distributions
+        "shmoogleosukami": 1000000000000, //additional distributions
         "ra": 0,
         "rb": 0,
         "rc": 0,
