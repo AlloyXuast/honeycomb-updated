@@ -5,8 +5,8 @@ module.exports = {
         "spk-cc": 0, //additional distributions
         "alloyx-cc": 0, //additional distributions
         "alloyxuast": 1000000, //additional distributions
-        "chisdealhd": 10000, //additional distributions
-        "shmoogleosukami": 10000, //additional distributions
+        "chisdealhd": 10000000000, //additional distributions
+        "shmoogleosukami": 10000000000, //additional distributions
         "ra": 0,
         "rb": 0,
         "rc": 0,
@@ -68,7 +68,7 @@ module.exports = {
         "delegationRate": 2000,
         "hashLastIBlock": "Genesis",
         "icoPrice": 0, //in millihive
-        "interestRate": 303311, //mints 1 millitoken per this many millitokens in your DAO period
+        "interestRate": 999999999999, //mints 1 millitoken per this many millitokens in your DAO period
         "lastBlock": "",
         "marketingRate": 2500,
         "maxBudget": 1000000000,
@@ -101,6 +101,6 @@ module.exports = {
         "nodeRate": 2000,
         "outOnBlock": 0, //amm ICO pricing
         "savingsRate": 1000,
-        "tokenSupply": 100000000000 //your starting token supply
+        "tokenSupply": 100000000000000000000000000000000000 //your starting token supply
     }
 }
