@@ -71,7 +71,7 @@ const clients = ENV.clients
 //!!!!!!! -- THESE ARE COMMUNITY CONSTANTS -- !!!!!!!!!//
 //TOKEN CONFIGS -- ALL COMMUNITY RUNNERS NEED THESE SAME VALUES
 //TOKEN CONFIGS -- ALL COMMUNITY RUNNERS NEED THESE SAME VALUES
-const starting_block = 83617818; //from what block does your token start
+const starting_block = 83667381; //from what block does your token start
 const prefix = 'alloyx1111_' //Community token name for Custom Json IDs
 const TOKEN = 'ALLOYX1111' //Token name
 const precision = 3 //precision of token

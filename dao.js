@@ -218,18 +218,21 @@ function dao(num) {
                 b = bals.rd;
                 j = 0;
                 console.log(num + `:${b} ${config.TOKEN} to distribute to delegators`);
-                for (i in deles) { //count vests
-                    j += deles[i];
-                }
-                for (i in deles) { //reward vests
-                    k = parseInt(b * deles[i] / j);
-                    cbals[i] ? cbals[i] += k : cbals[i] = k;
-                    bals.rd -= k;
-                    const _at = _atfun(i);
-                    post = post + `* ${parseFloat(parseInt(k) / 1000).toFixed(3)} ${config.TOKEN} for ${_at}${i}'s ${parseFloat(deles[i] / 1000000).toFixed(1)} Mvests.\n`;
-                    console.log(num + `:${k} ${config.TOKEN} awarded to ${i} for ${deles[i]} VESTS`);
-                }
-                stats[`${config.jsonTokenName}PerDel`] = parseFloat(k / j).toFixed(6);
+                console.log('no of delegators:', deles.length);
+                if(deles.length > 0) {
+                    for (i in deles) { //count vests
+                        j += deles[i];
+                    }
+                    for (i in deles) { //reward vests
+                        k = parseInt(b * deles[i] / j);
+                        cbals[i] ? cbals[i] += k : cbals[i] = k;
+                        bals.rd -= k;
+                        const _at = _atfun(i);
+                        post = post + `* ${parseFloat(parseInt(k) / 1000).toFixed(3)} ${config.TOKEN} for ${_at}${i}'s ${parseFloat(deles[i] / 1000000).toFixed(1)} Mvests.\n`;
+                        console.log(num + `:${k} ${config.TOKEN} awarded to ${i} for ${deles[i]} VESTS`);
+                    }
+                    stats[`${config.jsonTokenName}PerDel`] = parseFloat(k / j).toFixed(6);
+            }
             }
             if(config.features.ico){
                 post = post + `*****\n ## ICO Status\n`;
