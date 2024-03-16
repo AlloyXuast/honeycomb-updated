@@ -4,9 +4,9 @@ module.exports = {
         [config.leader]: 0,
         "spk-cc": 0, //additional distributions
         "alloyx-cc": 0, //additional distributions
-        "alloyxuast": 1000000, //additional distributions
-        "chisdealhd": 1000000000000, //additional distributions
-        "shmoogleosukami": 1000000000000, //additional distributions
+        "alloyxuast": 1000000000, //additional distributions
+        "chisdealhd": 1000000000, //additional distributions
+        "shmoogleosukami": 1000000000, //additional distributions
         "ra": 0,
         "rb": 0,
         "rc": 0,
@@ -95,12 +95,12 @@ module.exports = {
          "posting_threshold": 1
         },
         "MSHeld":{
-            "HIVE": 1000,
+            "HIVE": 6000,
             "HBD": 0
         }, 
         "nodeRate": 2000,
         "outOnBlock": 0, //amm ICO pricing
         "savingsRate": 1000,
-        "tokenSupply": 100000000000000000000000000000000000 //your starting token supply
+        "tokenSupply": 3000000000 //your starting token supply
     }
 }
