@@ -72,11 +72,10 @@ Promise.all([config.startURL, config.clientURL]).then(urls => {
   var client = new hive.Client(config.clients);
   exports.client = client
   var ipfs = IPFS(
-    `${config.ipfsprotocol}://${config.ipfshost}:${config.ipfsport}`
+    `${config.ipfsAPIURL}`
   );
   console.log(
-    `IPFS: ${config.ipfshost == "ipfs" ? "DockerIPFS" : config.ipfshost}:${config.ipfsport
-    }`
+    `IPFS: ${config.ipfsAPIURL}`
   ); exports.ipfs = ipfs;
   const rtrades = require('./rtrades');
   // var Pathwise = require('./pathwise');

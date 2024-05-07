@@ -37,6 +37,8 @@ const engineCrank = ENV.startingHash || 'QmconUD3faVGbgC2jAXRiueEuLarjfaUiDz5SA7
 const ipfshost = ENV.ipfshost || '127.0.0.1' //IPFS upload/download provider provider
 const ipfsport = ENV.ipfsport || '5001' //IPFS upload/download provider provider
 const ipfsprotocol = ENV.ipfsprotocol || 'http' //IPFS upload/download protocol
+const ipfsAPIURL = ENV.ipfsapiurl || `${ipfsprotocol}://${ipfshost == "ipfs" ? "DockerIPFS" : ipfshost}:${ipfsport}`
+
 var ipfsLinks = ENV.ipfsLinks
   ? ENV.ipfsLinks.split(" ")
   : [
@@ -395,9 +397,7 @@ let config = {
     clients,
     acm,
     override,
-    ipfshost,
-    ipfsprotocol,
-    ipfsport,
+    ipfsAPIURL,
     ipfsLinks,
     starting_block,
     prefix,
