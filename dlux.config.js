@@ -57,7 +57,7 @@ var ipfsLinks = ENV.ipfsLinks
 const bidRate = ENV.BIDRATE || 2500 //
 
 //HIVE CONFIGS
-var startURL = ENV.STARTURL || "https://hive-api.dlux.io/ipfs/";
+var startURL = ENV.STARTURL || "https://hive-api.dlux.io/";
 var clientURL = ENV.APIURL || "https://hive-api.dlux.io/";
 const clients = ENV.clients
   ? ENV.clients.split(" ")
